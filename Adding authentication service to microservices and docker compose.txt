@@ -1,0 +1,11 @@
+This will have the following services
+1.Authentication service
+2.Eureka Directory service
+3.Shareprice service
+4.Networth service
+
+Include the following spring security features in shareprice and networth service
+
+1. POM entries related to spring security
+2. Copy Securityconfig class from Authentication service and paste into the security folder under these projects.
+3.Copy JwtAuthorizationFilter class from Authentication service and paste into the security folder under these projects.
